@@ -1,3 +1,40 @@
-h1 {
+.not-found {
+  max-width: 1440px;
+  margin: 10rem auto;
+  font-family: var(--main-font-regular);
+
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.not-found__title {
+  padding-top: 1rem;
+  height: 30rem;
+  font-size: 1.2rem;
+}
+.not-found__title h1 {
+  font-family: var(--main-font-bold);
+  font-size: 2rem;
+}
+.not-found__back {
+  font-size: 1.2rem;
+  bottom: 0;
+  width: 100%;
+}
+.not-found__back a {
+  font-family: var(--main-font-bold);
   color: aliceblue;
+  padding: 1rem 2rem;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media (max-width: 426px) {
+  .not-found {
+    margin: 5rem auto;
+  }
 }
